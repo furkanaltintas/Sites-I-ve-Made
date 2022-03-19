@@ -18,4 +18,4 @@ GameLog WebSite
 ------------
 ![github](/gamelog/project-img/4.png)
 ------------
-![github](/documentation/project-img/5.png)
+![github](/gamelog/project-img/5.png)
