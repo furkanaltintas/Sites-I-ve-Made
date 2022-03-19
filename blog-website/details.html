@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html id="top">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Furkan Altıntaş</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">FurkanAltıntaş</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row mt-3">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white">
+                    <li class="breadcrumb-item"><a asp-controller="@controller" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Details</li>
+                </ol>
+            </nav>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <div class="author">
+                    <div class="avatar mx-auto white">
+                        <img style="float: left; margin: 20px; height: 125px;" src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg" class="rounded-circle img-responsive" alt="woman avatar">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="card-body">
+                        <!-- Name -->
+                        <h4 class="card-title"><b>Furkan Altıntaş</b></h4>
+                        <hr>
+                        <!-- Quotation -->
+                        <p>
+                            <i class="fas fa-quote-left"></i>
+                            Hayatta hiç hata yapmamış birisi zaten hiçbir işe başlamamış demektir.
+                            <i class="fas fa-quote-right"></i>
+                            <br />
+                            Henry Ford
+                        </p>
+                    </div>
+                </div>
+
+
+                <ul class="categories-list list-group">
+                    <li class="list-group-item active" aria-current="true"> <i class="fa fa-folder"></i> Kategoriler</li>
+                    <li class="list-group-item">Asp.Net Core (0) </li>
+                    <li class="list-group-item">Entity  Framework <span class="badge badge-pill badge-dark text-dark"> (0) </span> </li>
+                    <li class="list-group-item">Dapper </li>
+                    <li class="list-group-item">Sql </li>
+                    <li class="list-group-item">Flutter </li>
+                    <li class="list-group-item">Bootstrap </li>
+                </ul>
+
+                <ul class="list-group mt-2">
+                    <li class="list-group-item active" aria-current="true"> <i class="fa fa-pencil"></i> En Çooooook Okunanlar</li>
+                    <li class="list-group-item">Google & Facebook Authentication </li>
+                    <li class="list-group-item">ViewModel Üzümlü Kekim </li>
+                    <li class="list-group-item">Dto Ne İşe Yarar ? </li>
+                    <li class="list-group-item">Dapper Contrib Öğrenelim </li>
+                </ul>
+
+                <ul class="list-group mt-2">
+                    <li class="list-group-item active" aria-current="true"> <i class="fa fa-trophy"></i> Hedefler</li>
+                    <li class="list-group-item">Projeler / 3 </li>
+                    <li class="list-group-item">Kitaplar / 2 </li>
+                    <li class="list-group-item">Filmler / 0 </li>
+                </ul>
+
+                <ul class="list-group mt-2">
+                    <li class="list-group-item active" aria-current="true"> <i class="fa fa-user"></i> Ben Kimim</li>
+                    <li class="list-group-item">Hakkımda </li>
+                    <li class="list-group-item">İletişim </li>
+                    <li class="list-group-item disabled">Tanısan Çok Serversin</li>
+                </ul>
+
+                <ul class="list-group mt-2">
+                    <li class="list-group-item active" aria-current="true"> <i class="fa fa-bell"></i> Bildirimleri Aç</li>
+                    <li class="list-group-item">
+                        <input type="text" class="form-control" placeholder="Email" required />
+                    </li>
+                    <button type="submit" class="btn btn-dark">Gönder</button>
+                </ul>
+            </div>
+
+            <div class="col-8" id="new">
+                <strong>EN YENİLER</strong>
+                <hr />
+
+                <div class="row row-cols-1 row-cols-md-1 g-4">
+                    <div class="col">
+                
+                        <div class="card">
+                
+                            <div class="card-img">
+                                <img src="img/dapper.png" class="card-img-top" alt="...">
+                            </div>
+                
+                            <div class="card-header">
+                                <ul class="card-header-list">
+                                    <li><i class="fa fa-clock"> 27.01.2022 </i></li>
+                                    <li><i class="fa fa-folder"> Net Core </i></li>
+                                    <li><i class="fa fa-comment"> 0 </i></li>
+                                    <li><i class="fa fa-eye"> 74 </i></li>
+                                </ul>
+                            </div>
+                
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Bu Dapper da Neyin Nesi ?</h5>
+                                <p class="card-text text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                            </div>
+                
+                            <div class="card-footer bg-warning">
+                                <section>
+                                    <i class="fa fa-tag"></i> Etiketler :
+                                    <span class="badge bg-light">dapper</span>
+                                    <span class="badge bg-light">contrib</span>
+                                    <span class="badge bg-light">asp.net core</span>
+                                    <span class="badge bg-light">visual studio</span>
+                                </section>
+                            </div>
+                        </div>
+                
+                        <div class="card mt-3">
+                            <div class="author">
+                                <div class="avatar mx-auto white">
+                                    <img style="float: left; margin: 20px; height: 100px;" src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg" class="rounded-circle img-responsive" alt="avatar">
+                                </div>
+                
+                                <div class="card-body">
+                                    <h4 class="card-title"><b>Furkan Altıntaş</b></h4>
+                                    <hr>
+                                    <p>
+                                        Dotnet Developer
+                                    </p>
+                                    <p class="small">Deniyoruz her gün başarımızı görsünler diye, tek gördükleri elektrik faturası</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="card mt-3">
+                
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="text-center">Yorumlar</h5>
+                                </div>
+                                <div class="comments">
+                
+                                    <div class="card-comment">
+                                        <h6 class="member-fullname">
+                                            <b>Berkay Akar</b>
+                                            &nbsp;
+                                            <time class="small text-muted">26.01.2022 12:35</time>
+                                        </h6>
+                                        <p>İçeriği çok beğendim.</p>
+                                    </div>
+                
+                                    <hr />
+                
+                                    <div class="card-comment">
+                                        <h6 class="member-fullname">
+                                            <b>Escan Dönmez</b>
+                                            &nbsp;
+                                            <time class="small text-muted">26.01.2022 12:37</time>
+                                        </h6>
+                                        <p>Öğrenmek lazım cidden</p>
+                                    </div>
+                
+                                    <hr />
+                                    
+                                    <div class="card-comment-reply">
+                                        <h6 class="member-fullname">
+                                            <i class="fa fa-level-up"></i>
+                                            <b>Furkan Altıntaş (Admin)</b>
+                                            &nbsp;
+                                            <time class="small text-muted">26.01.2022 12:40</time>
+                                        </h6>
+                                        <p>Aynen şart baya</p>
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="card mt-3 mb-3">
+                
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Yok mu bir yorumun ?</h5>
+                            </div>
+                
+                            <div class="card-comment p-3">
+                                <form asp-action="" method="post">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="text" class="form-control" />
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <label>Message</label>
+                                        <textarea type="text" cols="5" rows="5" class="form-control"></textarea>
+                                    </div>
+                
+                                    <div class="form-group mt-1">
+                                        <button class="btn" id="comment-btn">Gönder Gelsin</button>
+                                    </div>
+                                </form>
+                            </div>
+                
+                            <div class="card-footer bg-warning">
+                                <section>
+                                    <i class="fa fa-comment"></i>
+                                    <span> 2 </span>
+                                </section>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/dapper.png" class="card-img-top" alt="...">
+                            </div>
+                
+                            <div class="card-null">
+                            </div>
+                
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Bu Dapper da Neyin Nesi ?</h5>
+                                <p class="card-text text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                
+                            <div class="card-footer bg-light">
+                                <i class="fa fa-clock"></i> 27 01 2022
+                            </div>
+                
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/dapper.png" class="card-img-top" alt="...">
+                            </div>
+                
+                            <div class="card-null">
+                            </div>
+                
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Bu Dapper da Neyin Nesi ?</h5>
+                                <p class="card-text text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                
+                            <div class="card-footer bg-light">
+                                <i class="fa fa-clock"></i> 27 01 2022
+                            </div>
+                
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/dapper.png" class="card-img-top" alt="...">
+                            </div>
+                
+                            <div class="card-null">
+                            </div>
+                
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Bu Dapper da Neyin Nesi ?</h5>
+                                <p class="card-text text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                
+                            <div class="card-footer bg-light">
+                                <i class="fa fa-clock"></i> @DateTime.Now.ToString("dd  MMMM yyy")
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-footer bg-warning">
+                        <i class="fa fa-folder"></i> Son Postlar
+                    </div>
+                </div>
+                
+                <div class="mt-3 text-end">
+                    <a onclick="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" class="cd-top"> Go to Top </a><i class="fa fa-hand-o-up" aria-hidden="true"></i>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <footer class="bg-light text-center text-white">
+                    <!-- Grid container -->
+                    <div class="container p-4 pb-0">
+                        <!-- Section: Social media -->
+                        <section class="social-media mb-4">
+                            <!-- Facebook -->
+                            <a class="btn btn-primary btn-floating m-1"
+                               style="background-color: #3b5998;"
+                               href="#!"
+                               role="button">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1"
+                               style="background-color: #55acee;"
+                               href="#!"
+                               role="button">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <!-- Google -->
+                            <a class="btn btn-primary btn-floating m-1"
+                               style="background-color: #dd4b39;"
+                               href="#!"
+                               role="button">
+                                <i class="fab fa-google"></i>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1"
+                               style="background-color: #ac2bac;"
+                               href="#!"
+                               role="button">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-primary btn-floating m-1"
+                               style="background-color: #0082ca;"
+                               href="#!"
+                               role="button">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <!-- Github -->
+                            <a class="btn btn-primary btn-floating m-1"
+                               style="background-color: #333333;"
+                               href="#!"
+                               role="button">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </section>
+                        <!-- Section: Social media -->
+                    </div>
+                    <!-- Grid container -->
+                    <!-- Copyright -->
+                    <div class="footer">
+                        © 2022 Copyright:
+                        <a class="footer-author" asp-controller="Home" asp-action="Index">Furkan Altintas</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- - SCRIPTS START -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          $('.alert').alert()
+        })
+    </script>
+
+    <script src="https://use.fontawesome.com/24c49e1555.js"></script>
+    <!-- - SCRIPTS END -->
+
+</body>
+</html>

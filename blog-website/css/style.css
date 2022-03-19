@@ -1,0 +1,294 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    transition-duration: 0.2s;
+    color: white;
+}
+
+.navbar-brand:hover {
+    transition-duration: 0.3s;
+    color: royalblue;
+}
+
+.nav-item a {
+    transition-duration: 0.2s;
+    color: white;
+}
+
+    .nav-item a:hover {
+        transition-duration: 0.3s;
+        color: grey;
+    }
+
+.breadcrumb-item a {
+    transition-duration: 0.2s;
+    color: black;
+}
+
+    .breadcrumb-item a:hover {
+        transition-duration: 0.3s;
+        color: royalblue;
+    }
+
+.avatar img {
+    border: 2px solid royalblue;
+    transition-duration: 0.5s;
+}
+
+    .avatar img:hover {
+        transition-duration: 0.5s;
+        filter: grayscale(20%);
+        filter: contrast(80%);
+    }
+
+.categories-list li:hover {
+    background-color: dimgrey;
+}
+
+#new {
+    margin-top: 20px;
+}
+
+.card-img {
+    transition-duration: 0.6s;
+}
+
+    .card-img:hover {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition-duration: 0.6s;
+    }
+
+.card-header {
+    height: 50px;
+}
+
+    .card-header ul {
+        list-style: none;
+        text-align: center;
+    }
+
+    .card-header li {
+        text-decoration: none;
+        display: inline;
+    }
+
+    .card-header i {
+        padding: 10px;
+        text-align: center;
+    }
+
+.card-body h5 {
+    font-size: 30px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+}
+
+.card-title {
+    transition-duration: 0.3s;
+    font-weight: 700;
+}
+
+    .card-title:hover {
+        transition-duration: 0.3s;
+        color: royalblue;
+    }
+
+.card-null {
+    border-top: 2px solid #333;
+    border-bottom: 0px;
+    background-color: white;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card-footer a {
+    color: white;
+}
+
+    .card-footer a:hover {
+        color: orange;
+        filter: grayscale(10%);
+    }
+
+.card-footer button {
+    color: white;
+}
+
+    .card-footer button:hover {
+        color: orange;
+        filter: grayscale(10%);
+    }
+
+.card-comment-reply {
+    margin-left: 100px;
+}
+
+    .card-comment-reply i {
+        transform: scale(-1,1);
+    }
+
+#comment-btn {
+    transition-duration: 0.2s;
+    // background-color: black;
+    // color: white;
+    border: 2px solid #333;
+    color: #212529;
+}
+
+    #comment-btn:hover {
+        transition-duration: 0.3s;
+        background-color: rgba(255,193,7);
+        opacity: 1;
+    }
+
+.contact-title {
+    color: black;
+    font-size: 25px;
+}
+
+.about-img {
+    //border-radius: 10px 10px 10px 10px/35px 35px 35px 35px;
+    filter: grayscale(70%);
+    width: 100%;
+    height: auto;
+}
+
+.social-media {
+    transition-duration: 0.5s;
+}
+
+    .social-media a:hover {
+        transition-duration: 0.5s;
+        filter: grayscale(50%);
+    }
+
+.cd-top {
+    cursor: pointer;
+}
+
+.category h2 {
+    transition-duration: 0.5s;
+    font-weight: 700;
+    text-shadow: 2px 5px 50px orange;
+}
+
+    .category h2:hover {
+        transition-duration: 0.3s;
+        color: royalblue;
+    }
+
+.category-articles-list {
+    width: 100%;
+    border-radius: 0px;
+    border: 2px solid #333;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.article-link a {
+    transition-duration: 0.3s;
+    color: black;
+}
+
+    .article-link a:hover {
+        transition-duration: 0.3s;
+        color: dimgray;
+    }
+
+.pagination {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .pagination li {
+        display: inline-block;
+    }
+
+#error-btn {
+    transition-duration: 0.2s;
+    // background-color: black;
+    // color: white;
+    border: 2px solid #333;
+    color: #212529;
+}
+
+#error-btn:hover {
+    transition-duration: 0.3s;
+    background-color: rgba(255,193,7);
+    opacity: 1;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.footer {
+    background-color: black;
+    padding: 1rem !important;
+}
+
+.footer-author {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.footer-author:hover {
+    color: #dcdbdb;
+    transition-duration: 0.5s;
+}
+
+.login {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -225px;
+}
+
+.login-text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.login-promise {
+    color: white;
+    text-align: center;
+    animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.project-list {
+    
+}
+
+.project {
+    margin-top: 10px;
+}

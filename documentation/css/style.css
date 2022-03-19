@@ -1,0 +1,249 @@
+body {
+    background-color: #202524;
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+}
+
+a, i {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container {
+    margin: 100px;
+    padding: 100px;
+}
+
+.transition-duration, 
+.card-title,
+.card-read-more,
+.me,
+.btn,
+.card-author-social-media i {
+    transition-duration: 0.4s;
+}
+
+.transition-duration-hover,
+.card-title:hover,
+.card-read-more:hover,
+.me:hover,
+.btn:hover,
+.card-author-social-media i:hover {
+    transition-duration: 0.5s;
+}
+
+.bordered, .writer, .card {
+    border-radius: .25rem;
+    margin-bottom: 50px!important;
+    box-shadow: 0 1rem 3rem rgb(19, 18, 18);
+    background-color: transparent;
+}
+
+.writer {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.degree {
+    color: #dc3545;
+}
+
+.social-media {
+    margin-top: 0.5rem;
+}
+
+.social-media i {
+    border: 1px solid whitesmoke;
+    padding: 7px;
+    transition-duration: 0.2s;
+}
+
+.fa-linkedin {
+    background-color: rgb(17, 126, 228);
+}
+
+.social-media i:hover {
+    background-color: #dc3545;
+    transition-duration: 0.3s;
+}
+
+.card {
+    z-index: 1;
+    /* border-radius: 0px;
+    border: 0px; */
+}
+
+.card-img {
+    margin-bottom: 20px;
+    border-radius: 0px;
+    box-shadow: 0 1rem 3rem rgb(19, 18, 18);
+    border-radius: 0.25rem
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* color: #161515; */
+}
+
+.card-title:hover {
+    color: #dc3545;
+}
+
+.card-date {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-read-more {
+    font-weight: bold;
+    color: #1a9137;
+    text-decoration: none;
+}
+
+.card-read-more:hover {
+    color: #dc3545;
+}
+
+.card-author-title {
+    color: #dc3545;
+}
+
+.card-author-description {
+    font-size: 17px;
+    color: rgb(199, 190, 190);
+}
+
+.card-author-img {
+    border:  2px solid white;
+    border-radius: 50%;
+    /* height: 100%; */
+    width: auto;
+    box-shadow: 0 1rem 4rem rgb(19, 18, 18);
+}
+
+.card-author-social-media i {
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.card-author-social-media i:hover {
+    background-color: #dc3545;
+}
+
+.card-author-social-media .fa-github {
+    background-color: #000000;
+}
+
+.card-author-social-media .fa-linkedin {
+    background-color: #0066ff;
+}
+
+.author {
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    border-radius: 0px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    border: 2px solid transparent;
+}
+
+.form-group textarea {
+    border-radius: 0px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    border: 2px solid transparent;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0px;
+    border: 2px dashed #1a9137;
+    color: white;
+    /* border-radius: 50%; */
+    /* width: 100px; */
+    width: 100%;
+    height: 100px;
+}
+
+.btn:hover {
+    background-color: #1a9137;
+    color: black;
+    box-shadow: 0px 1rem 2rem rgb(19 18 18);
+}
+
+.description h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.description p {
+    color: rgb(201, 201, 201);
+}
+
+ul {
+    padding-left: 1.4rem;
+}
+
+ol {
+    padding-left: 2.5rem;
+}
+
+blockquote {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    border-left: 5px solid #dc3545;
+}
+
+blockquote p {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 210px) {
+    body {
+        text-align: center;
+    }
+    .container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+    .writer {
+        font-size: 27px;
+    }
+    
+    .degree {
+        font-size: 25px;
+    }
+}

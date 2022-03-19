@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px;
+    box-shadow: 0rem 0.2rem 0rem #b4b4b4;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.design,
+.employee {
+    background-color: #fff;
+}
+
+.design .content,
+.employee .content {
+    color: black;
+}
+
+.content {
+    color: white;
+    text-align: left;
+    padding: 100px;
+}
+
+.content-title h2 {
+    font-size: 50px;
+}
+
+.content-description {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.right-img {
+    border-left: 2px solid #b4b4b4;
+    padding: 50px;
+    height: 100%;
+    margin-left: -13px;
+}
+
+.left-img {
+    border-right: 2px solid #b4b4b4;
+    padding: 50px;
+    height: 100%;
+    margin-right: -13px;
+}
+
+.left-img img,
+.right-img img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+
+.btn,
+.service,
+.design,
+.about,
+.employee {
+    border-radius: 0px;
+    padding: 0.5rem 2rem;
+}
+
+.service .btn,
+.about .btn {
+    color: white;
+    border-color: white;
+}
+
+.service .btn.btn-outline-dark:hover,
+.about .btn.btn-outline-dark:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.design .btn,
+.employee .btn {
+    color: black;
+    border-color: black;
+}
+
+.design .btn.btn-outline-dark:hover,
+.employee .btn.btn-outline-dark:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    color: white;
+}
+
+
+
+hr {
+    background-color: currentColor;
+    margin: 1.5rem;
+    color: #c6c9cc;
+    border: 0px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+:color {
+    --bs-gray-dark: #343a40;
+}

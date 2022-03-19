@@ -1,0 +1,119 @@
+body {
+    font-family: 'Noto Serif Display', serif;
+}
+
+.container {
+    padding-top: 27px;
+}
+
+.profile {
+    padding: 75px;
+}
+
+.profile-img {
+    border-left: 3px solid #9ebddd;
+    border-right: 3px solid #d4dd9e;
+    border-top: 3px solid #dd9ea9;
+    border-bottom: 3px solid #abdd9e;
+    border-radius: 3px;
+}
+
+.profile-content {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.profile-author {
+    color: #343a40;
+    font-size: 45px;
+}
+
+.profile-degree {
+    font-size: 26px;
+}
+
+.profile-description {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.profile-social {
+    float: right;
+    font-size: 18px;
+}
+
+.profile-social a {
+    color: #343a40;
+}
+
+.profile-social a:hover {
+    filter: brightness(30%);
+}
+
+.profile-social i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.line {
+    background-color: #343a40;
+    position: fixed;
+}
+
+.line.top {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.line.bottom {
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.line.left {
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+}
+
+.line.right {
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .profile {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+hr {
+    background-color: currentColor;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #c6c9cc;
+    border: 0px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+:color {
+    --bs-gray-dark: #343a40;
+}

@@ -1,0 +1,198 @@
+body {
+    background-color: #181210;
+    color: rgb(41, 37, 37);
+    font-family: 'Roboto Mono';
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+.col-right {
+    box-shadow: 0 1rem 3remrgb(0, 0, 0));
+}
+
+.card {
+    background: none;
+    color: wheat;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.profile {
+    background-color: #26434d;
+}
+
+.img-profile {
+    border: 3px solid rgb(59, 51, 51);
+    border-radius: 50%;
+    width: 195px;
+    height: 195px;
+}
+
+.profile-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-text {
+    font-size: 18px;
+}
+
+.card-social span {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.about,
+.information,
+.lists,
+.experiences,
+.educations,
+.skills,
+.contacts {
+    padding: 30px;
+}
+
+.about-title,
+.information-title,
+.list-title,
+.experience-title,
+.education-title,
+.skill-title,
+.contact-title {
+    text-align: left;
+}
+
+.about-text {
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.about-link {
+    float: left;
+    color: #272626;
+    text-decoration: none;
+    background-color: rgb(209, 168, 113);
+    padding: 5px 20px;
+    border-radius: 35px;
+    transition: transform .18s ease-in-out;
+    box-shadow: 0 1rem 3rem rgb(19 18 18)!important;
+}
+
+.about-link:hover {
+    transform: translateX(+10px);
+    color: white;
+}
+
+.information-title {
+    margin-bottom: 30px;
+}
+
+.info dt {
+    float: left;
+    font-size: 15px;
+}
+
+.info dd {
+    text-align: left;
+    margin-left: 150px;
+    font-size: 14px;
+}
+
+.language dt {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.language dd {
+    text-align: left;
+    font-size: 14px;
+}
+
+.list dt, dd {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.list dt {
+    float: left;
+}
+
+.list dd {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.experience,
+.education {
+    margin-top: 30px;
+}
+
+.experience-text,
+.education-text {
+    text-align: left;
+}
+
+.experience-date,
+.education-date {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.experience-description,
+.education-description {
+    text-align: justify;
+}
+
+.skill-name {
+    margin-top: 10px;
+}
+
+.contact-title {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    float: left;
+    font-size: 15px;
+}
+
+.btn {
+    color: wheat;
+    float: left;
+    width: 100%;
+}
+
+.btn:hover {
+    box-shadow: 0 0.3rem 0.5rem rgb(19 18 18);
+}
+
+.footer {
+    padding-top: 40px;
+    color: wheat;
+}
+
+hr {
+    background-color: currentColor;
+    margin: 1.5rem;
+    color: #3d444b;
+    border: 0px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+:color {
+    --bs-gray-dark: #343a40;
+}
