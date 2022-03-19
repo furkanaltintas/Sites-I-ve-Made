@@ -12,14 +12,14 @@ Documentation WebSite
 #### Home
 ![github](/documentation/project-img/1.png)
 ------------
-![github](/course/project-img/2.png)
+![github](/documentation/project-img/2.png)
 ------------
-![github](/course/project-img/3.png)
+![github](/documentation/project-img/3.png)
 ------------
-![github](/course/project-img/4.png)
+![github](/documentation/project-img/4.png)
 ------------
-![github](/course/project-img/5.png)
+![github](/documentation/project-img/5.png)
 ------------
-![github](/course/project-img/6.png)
+![github](/documentation/project-img/6.png)
 ------------
-![github](/course/project-img/7.png)
+![github](/documentation/project-img/7.png)
