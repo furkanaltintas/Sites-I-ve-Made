@@ -10,7 +10,7 @@ Html, Css & Bootstrap
 ### Project Images
 ------------
 #### Home
-![github](/project_img/index_one.jpg)
+![github](/project-img/index_one.jpg)
 ------------
 ![github](/project_img/index_two.jpg)
 ------------
