@@ -18,6 +18,7 @@ Joy WebSite
 ------------
 ![github](/joy/project-img/4.png)
 ------------
+#### Details
 ![github](/joy/project-img/5.png)
 ------------
 ![github](/joy/project-img/6.png)
