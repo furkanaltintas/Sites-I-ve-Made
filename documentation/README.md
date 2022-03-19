@@ -18,9 +18,9 @@ Documentation WebSite
 ------------
 ![github](/documentation/project-img/4.png)
 ------------
+#### Details
 ![github](/documentation/project-img/5.png)
 ------------
-#### Details
 ![github](/documentation/project-img/6.png)
 ------------
 ![github](/documentation/project-img/7.png)
