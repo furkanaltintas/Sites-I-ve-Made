@@ -14,16 +14,12 @@ Course WebSite
 ------------
 ![github](/course/project-img/2.png)
 ------------
-
-#### Details
 ![github](/course/project-img/3.png)
 ------------
 ![github](/course/project-img/4.png)
-
-#### Details
+------------
 ![github](/course/project-img/5.png)
 ------------
 ![github](/course/project-img/6.png)
-
-#### Details
+------------
 ![github](/course/project-img/7.png)
