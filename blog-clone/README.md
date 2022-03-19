@@ -15,12 +15,12 @@ Burak Hocanın Sitesi: https://buraksenyurt.com/
 ### Project Images
 ------------
 #### Home
-![github](/blog-clone/project-img/index_one.jpg)
+![github](/blog-clone/project-img/1.jpg)
 ------------
-![github](/blog-clone/project-img/index_two.jpg)
+![github](/blog-clone/project-img/2.jpg)
 ------------
 
 #### Details
-![github](/blog-clone/project-img/details_one.jpg)
+![github](/blog-clone/project-img/3.jpg)
 ------------
-![github](/blog-clone/project-img/details_two.jpg)
+![github](/blog-clone/project-img/4.jpg)
