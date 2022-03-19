@@ -26,6 +26,7 @@ I developed two projects together using Bootstrap. Portfolio and Blog site toget
 ------------
 ![github](/portfolio-blog/project-img/7.png)
 ------------
+#### Blog Details
 ![github](/portfolio-blog/project-img/8.png)
 ------------
 ![github](/portfolio-blog/project-img/9.png)
