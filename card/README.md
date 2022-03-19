@@ -10,4 +10,4 @@ Card WebSite
 ### Project Images
 ------------
 #### Home
-![github](/card/project-img/1.jpg)
+![github](/card/project-img/1.png)
